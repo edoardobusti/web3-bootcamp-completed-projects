@@ -1,6 +1,6 @@
 ## 📑 Assignments M1
 
-This folder contains assignments for **Module 1** of the Web3 Solidity Bootcamp. The focus of this module is on creating and extending ERC20 token functionality using **OpenZeppelin** contracts, along with the implementation of a **token sale** and the ability for **partial refunds**. Below are the specific requirements given to me.
+This folder contains the assignments for **Module 1** of the Web3 Solidity Bootcamp. In this module, the focus is on building and extending ERC20 token functionality by utilizing OpenZeppelin contracts.
 
 ### Deliverables:
 
