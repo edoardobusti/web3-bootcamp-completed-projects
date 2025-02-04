@@ -1,0 +1,66 @@
+.fingerprint {
+  position: relative;
+  background: url(./../../assets/fingerPrint_01.png);
+  background-size: cover;
+}
+
+.fingerprint::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./../../assets/fingerPrint_02.png);
+  background-size: cover;
+  z-index: 1;
+  animation: animate-scan 2s ease-in-out infinite;
+}
+
+.fingerprint::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #3fefef;
+  border-radius: 8px;
+  z-index: 2;
+  filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+  animation: animate-line 2s ease-in-out infinite;
+}
+
+.blink-animation {
+  animation: blink 1s infinite;
+}
+
+@keyframes animate-scan {
+  0%,
+  100% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+@keyframes animate-line {
+  0%,
+  100% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
