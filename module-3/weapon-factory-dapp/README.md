@@ -4,7 +4,7 @@ A decentralized web application that simulates a weapon factory, where users can
 
 ## 🌐 Smart Contract Source Code
 
-- **View file on Github**: [View Solidity File](https://github.com/edobusti/metana-web3-solidity-bootcamp/blob/main/module-3/WeaponFactory.sol)
+- **View file on Github**: [View Solidity File](https://github.com/edobusti/web3-bootcamp-completed-projects/blob/main/module-3/WeaponFactory.sol)
 
 ## ⚙️ How It Works
 
