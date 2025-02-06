@@ -1,13 +1,36 @@
-# Sample Hardhat Project
+# Partial Refund Token Sale - Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project provides a Hardhat-based development environment for the Partial Refund ERC20 Token Sale smart contract.
 
-Try running some of the following tasks:
+## 🚀 Installation
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+1. **Clone the Repository**:
+
+   ```sh
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. **Install Dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+3. **Compile the Contracts**:
+
+   ```sh
+   npx hardhat compile
+   ```
+
+4. **Run Unit Tests**:
+
+   ```sh
+   npx hardhat test
+   ```
+
+5. **Check Test Coverage**:
+
+   ```sh
+   npx hardhat coverage
+   ```
